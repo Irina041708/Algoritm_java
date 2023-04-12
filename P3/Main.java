@@ -11,20 +11,20 @@ package P3;
 
 public class Main {
     public static void main(String[] args) {
-    // LinList list = new LinList();
-    // list.addFirst(1);
-    // list.addLast(2);
-    // list.addFirst(3);
-    // list.removeLast();
-    // list.removeFirst(1);
-    // list.removeLast();
-    // list.print();
-
-
-    Lin2List list = new Lin2List();
+    LinList list = new LinList();
     list.addFirst(1);
     list.addLast(2);
     list.addFirst(3);
+    list.removeLast();
+    list.removeFirst(1);
+    list.removeLast();
+    list.print();
+
+
+    // Lin2List list = new Lin2List();
+    // list.addFirst(1);
+    // list.addLast(2);
+    // list.addFirst(3);
     
     
    
